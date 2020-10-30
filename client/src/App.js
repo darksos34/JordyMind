@@ -1,15 +1,20 @@
 
 import './App.css';
-import React from "react";
-const InputElement = () => {
-  
-}
-function App() {
+import React, {useState} from "react";
+const App = () => {
+
+const [inputText,setInputText] = useState("");
+
   return (
-    <div className="App">
-      <input placeholder="Enter some Text"/>
+    <div>
+      <input onChange={(e) => {
+        setInputText(e.target.value)
+      }}
+             placeholder="Enter some Text"/><br/>
+      {inputText}
     </div>
   );
 }
+
 
 export default App;
