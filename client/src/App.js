@@ -1,24 +1,11 @@
 import './App.css';
-import React, {useState} from "react";
+import React from "react";
+import SearchForm from "./Profile/SearchForm";
 const App = () => {
 
-    const [inputText,setInputText] = useState("");
-
-    const [historyList,setHistoryList] = useState([]);
     return (
         <div>
-            <input onChange={(e) => {
-                setInputText(e.target.value)
-                setHistoryList([...historyList,e.target.value]);
-            }}
-                   placeholder="Enter some Text"/><br/>
-            {inputText}
-            <hr/><br/>
-            <ul>
-                {historyList.map((rec)=>{
-                    return<div>{rec}</div>
-                })}
-            </ul>
+            <SearchForm/>
         </div>
 
     );
