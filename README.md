@@ -1,5 +1,6 @@
 # JordyMind
- own webapp
+
+Just building for fun and keep on learning new skills.
  
  
 Contributed by Jordy Hamwijk
@@ -8,4 +9,6 @@ Contributed by Jordy Hamwijk
 
 - updated on 3-11-2020
 
+
+Java LTS 11.0.9
 
