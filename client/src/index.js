@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import SearchForm from "./SearchProgram/SearchForm";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <SearchForm/>
   </React.StrictMode>,
   document.getElementById('root')
 );
