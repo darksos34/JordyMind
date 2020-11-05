@@ -8,7 +8,6 @@ import SearchForm from "./SearchProgram/SearchForm";
 
 ReactDOM.render(
   <React.StrictMode>
-
     <App />
     <SearchForm/>
   </React.StrictMode>,
