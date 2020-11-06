@@ -1,5 +1,5 @@
 
-*.xml
+
 server/mvnw.cmd
 client/.idea/client.iml
 *.iml
