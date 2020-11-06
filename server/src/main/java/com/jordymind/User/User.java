@@ -7,7 +7,7 @@
  *
  */
 
-package com.jordymind.User.model;
+package com.jordymind.User;
 
 import com.jordymind.User.Audit.Audit;
 import lombok.Getter;

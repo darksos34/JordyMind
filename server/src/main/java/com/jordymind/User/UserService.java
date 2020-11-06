@@ -7,10 +7,8 @@
  *
  */
 
-package com.jordymind.User.service;
+package com.jordymind.User;
 
-import com.jordymind.User.model.User;
-import com.jordymind.User.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

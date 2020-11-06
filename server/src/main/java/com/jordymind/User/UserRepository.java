@@ -7,9 +7,8 @@
  *
  */
 
-package com.jordymind.User.repository;
+package com.jordymind.User;
 
-import com.jordymind.User.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
