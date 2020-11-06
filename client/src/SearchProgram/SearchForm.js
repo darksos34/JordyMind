@@ -12,7 +12,7 @@ const SearchForm = () => {
             }}
                    placeholder="Enter some Text"/><br/>
             {inputText}
-            <hr/><br/>
+
             <ul>
                 {historyList.map((rec)=>{
                     return<div>{rec}</div>
