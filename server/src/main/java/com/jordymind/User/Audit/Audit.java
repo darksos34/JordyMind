@@ -7,7 +7,7 @@
  *
  */
 
-package com.jordymind.User.model;
+package com.jordymind.User.Audit;
 
 public class Audit {
 }

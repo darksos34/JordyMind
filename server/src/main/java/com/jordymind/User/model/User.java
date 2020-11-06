@@ -9,6 +9,7 @@
 
 package com.jordymind.User.model;
 
+import com.jordymind.User.Audit.Audit;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
