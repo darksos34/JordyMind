@@ -1,6 +1,5 @@
 package com.jordymind.server.user;
 
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -9,16 +8,14 @@ import java.util.Optional;
 
 
 
-@RequiredArgsConstructor // Lombok to create the Required Args Constructor
 @Service // Instruct Spring Boot that this is the Service layer
 public class UserService {
 
     // Import Methods from other Class
-    private final UserRepository userRepository; // Class from which methods are being imported
+    private  UserRepository userRepository; // Class from which methods are being imported
 
-    public UserService(UserRepository userRepository) {
-        this.userRepository = userRepository;
-    }
+
+
 
     // Get all users
     public List<User> getAllUsers() { // Generate function
@@ -48,8 +45,8 @@ public class UserService {
         return userRepository.findByEmail(email);
     }
 
-    // Back-end updatePassword in progress
-    public void updatePassword(String updatedPassword) {
-        userRepository.findByEmail(updatedPassword);
-    }
+//    // Back-end updatePassword in progress
+//    public void updatePassword(String updatedPassword) {
+//        userRepository.findByEmail(updatedPassword);
+//    }
 }
