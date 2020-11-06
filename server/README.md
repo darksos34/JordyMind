@@ -11,6 +11,18 @@ school
 *Last updated on: 06-11-2020 by Jordy Hamwijk*
 <br />
 
+
+
+# More to be added
+
+Role 
+1. Admin
+2. Moderator
+3. User
+
+
+
+
 ## Back-end Setup
 
 The back-end of this application is build using **Spring Boot**.<br />
@@ -48,14 +60,8 @@ Jordy Mind uses Spring Data JPA to manage data between the Java service classes 
 <br />
 Jordy Mind uses the PostgreSQL Driver to manage the data being saved and queried in the PostgreSQL database.
 
-### Spring Security
-Spring Security is a framework that focuses on providing both authentication and authorization to Java applications.<br />
-Like all Spring projects, the real power of Spring Security is found in how easily it can be extended to meet custom requirements.<br />
-<br />
-Jordy Mind uses the Spring Security dependency to manage authorization and authentication settings.<br />
-Jordy Mind requires users to register and login, as such Spring Security is integrated in our application.
 
-### Lombok
+## Lombok is not working 
 Project Lombok is a Java library that automatically plugs into the editor and build tools, spicing up Java.<br />
 Never write another getter or equals method again. Ideal to reduce boilerplate code.<br />
 <br />
@@ -187,30 +193,6 @@ The files, such as controllers, models, services etc. have been splitted in pack
 With the current infrastructure, it is easier to expand the application in the near future.
 
 
-### Audit
-The Audit model is created to extend other models with a creation timestamp and updated timestamp.<br />
-In some cases it is handy to have such information. This way the application will ensure logging of these details.<br />
-The timestamps in return are logged in the database.<br />
-
-### Auth (Authorization & Authentication)
-The application requires authorization and authentication.<br />
-JWT ensures correct authorization and authentication of the user according following process:<br /><br />
-![JWT Authorization and Authentication]()
-
-### File
-Within the application, files can be saved and in return downloaded.<br />
-This part of the application is used with uploading image(s) and downloading image(s), specifically the user avatar picture.<br />
-
-### Profile
-Each user has a profile, the profile therefor has a one-to-one relationship with the user.<br />
-In order to split the amount of data per user in the database, this split was introduced to save main User's details with the User model, and secondary user details with the Profile model.<br />
-The profile details consist of a first name, last name, phonenumber, gender, date of birth, city and country.
-
-### Role
-The application defines 3 (three) roles:<br />
-- Administrator
-- Moderator
-- User
 
 These roles are defined with the ERole enumerated list.
 
@@ -246,4 +228,4 @@ For the back-end section, following .gitignore file is created:
 
 [Back to Top Level]()
 
-[Help](https://github.com/hogeschoolnovi/eindopdracht-jeffrey-jordy/blob/master/client/src/Support/Help.md)
+[Help]()

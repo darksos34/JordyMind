@@ -6,3 +6,4 @@ client/.idea/client.iml
 .idea/.name
 *.lib
 *.jar
+*.meta
