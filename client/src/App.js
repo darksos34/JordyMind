@@ -1,7 +1,8 @@
 
 import React from "react";
 import ShowHideDetails from "./Profile/ShowHideDetails";
-import Nav from "./Menu/Nav";
+import Home from "./Profile/Home";
+import SearchForm from "./SearchProgram/SearchForm";
 
 
 const App = () => {
@@ -10,13 +11,19 @@ const App = () => {
     return (
 
         <main>
+            <Home/>
             <p>
 
                 Search and add a component to change Images.
                 For example when you hover over a picture that the color changes.
             </p>
-            <Nav/>
+            <br/>
+
             <ShowHideDetails/>
+            <br/>
+            This will be form to search on the entire webapp.
+            <SearchForm/>
+
 
 
         </main>
