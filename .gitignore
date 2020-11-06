@@ -5,3 +5,4 @@ client/.idea/client.iml
 *.iml
 .idea/.name
 *.lib
+*.jar
