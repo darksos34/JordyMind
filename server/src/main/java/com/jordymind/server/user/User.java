@@ -2,7 +2,7 @@ package com.jordymind.server.user;
 
 
 import lombok.Getter;
-import lombok.NoArgsConstructor;
+
 import lombok.Setter;
 
 

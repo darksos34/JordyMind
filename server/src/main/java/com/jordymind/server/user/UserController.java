@@ -1,6 +1,6 @@
 package com.jordymind.server.user;
 
-import org.springframework.security.access.prepost.PreAuthorize;
+
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -16,37 +16,35 @@ import java.util.Optional;
 public class UserController {
 
     // Import Methods from other Class
-    private final UserService userService; // Class from which methods are being imported
+    private  UserService userService; // Class from which methods are being imported
 
-    public UserController(UserService userService) {
-        this.userService = userService;
-    }
+
 
 
     // Get all users
     @GetMapping // GET request handler
-    @PreAuthorize("hasRole('ADMIN')") // Access granted for Admin Role
+    //@PreAuthorize("hasRole('ADMIN')") // Access granted for Admin Role
     public List<User> getAllUsers() {
         return userService.getAllUsers();
     }
 
     // Get user by ID
     @GetMapping("/{id}") // GET request handler by ID
-    @PreAuthorize("hasRole('USER') or hasRole('MODERATOR') or hasRole('ADMIN')") // Access granted for all roles
+    //@PreAuthorize("hasRole('USER') or hasRole('MODERATOR') or hasRole('ADMIN')") // Access granted for all roles
     public Optional<User> getUserById(@PathVariable Long id) {
         return userService.getUserById(id);
     }
 
     // Update user
     @PutMapping // PUT request handler
-    @PreAuthorize("hasRole('ADMIN')") // Access granted for Admin Role
+    //@PreAuthorize("hasRole('ADMIN')") // Access granted for Admin Role
     public void updateUser(@Valid @RequestBody User user) {
         userService.updateUser(user);
     }
 
     // Delete user
     @DeleteMapping("/{id}") // DELETE request handler by ID
-    @PreAuthorize("hasRole('ADMIN')") // Access granted for Admin Role
+    //@PreAuthorize("hasRole('ADMIN')") // Access granted for Admin Role
     public void deleteUser(@PathVariable Long id) {
         userService.deleteUser(id);
     }
