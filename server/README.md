@@ -1,13 +1,14 @@
 # Back-end section
-Full Stack Web Application<br />
-Social Media Platform: **Code Network**
 
-### Contributors:
-Jeffrey Spaan (Student Full Stack Developer @ Novi Hogeschool)<br />
+Full Stack Web Application<br />
+
+
+### Contributor:
+
 Jordy Hamwijk (Student Full Stack Developer @ Novi Hogeschool)<br />
 <br />
-*Initialized on: 19-05-2020*<br />
-*Last updated on: 19-10-2020 by Jordy Hamwijk*
+
+*Last updated on: 06-11-2020 by Jordy Hamwijk*
 <br />
 
 ## Back-end Setup
@@ -22,11 +23,11 @@ Via [https://start.spring.io](https://start.spring.io), following Spring Boot pr
 * **Project:** ```Maven Project```<br />
 * **Language:** ```Java```<br />
 * **Spring Boot (version):** We will use the latest stable version: ```2.3.0```<br />
-* **Group:** ```nl.codenetwork```<br />
+* **Group:** ```com.Jordy Mind```<br />
 * **Artifact:** ```server```<br />
-* **Description:** ```Social Media Network```<br />
+* **Description:** ``````<br />
 * **Packaging:** ```JAR```<br />
-* **Java:** version ```8```<br />
+* **Java:** version ```11```<br />
 * **Dependencies:** ```Spring Web, Spring Data JPA, PostgreSQL Driver, Spring Security, Lombok```<br />
 
 ![Spring Boot Dependency Selection](https://raw.githubusercontent.com/hogeschoolnovi/eindopdracht-jeffrey-jordy/master/images/01-spring-boot-generated-project.JPG?token=AOL7G77AVRY6UD6CGRK4BFS6ZVR7U)

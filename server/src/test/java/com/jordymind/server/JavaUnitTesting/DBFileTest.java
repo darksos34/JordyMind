@@ -1,4 +1,4 @@
-package nl.jordymind.server.JavaUnitTesting;
+package com.jordymind.server.JavaUnitTesting;
 
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;

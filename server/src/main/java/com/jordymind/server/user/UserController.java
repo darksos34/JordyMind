@@ -1,4 +1,4 @@
-package nl.jordymind.server.user;
+package com.jordymind.server.user;
 
 import lombok.RequiredArgsConstructor;
 

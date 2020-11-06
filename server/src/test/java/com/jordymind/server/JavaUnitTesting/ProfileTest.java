@@ -1,8 +1,8 @@
-package nl.jordymind.server.JavaUnitTesting;
+package com.jordymind.server.JavaUnitTesting;
 
 import lombok.Getter;
 import lombok.Setter;
-import nl.jordymind.server.user.User;
+import com.jordymind.server.user.User;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 

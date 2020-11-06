@@ -1,4 +1,4 @@
-package nl.jordymind.server;
+package com.jordymind.server;
 
 
 import org.junit.jupiter.api.Test;

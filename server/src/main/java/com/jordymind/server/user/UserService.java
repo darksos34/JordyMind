@@ -1,8 +1,6 @@
-package nl.jordymind.server.user;
+package com.jordymind.server.user;
 
 import lombok.RequiredArgsConstructor;
-import nl.jordymind.server.user.User;
-import nl.jordymind.server.user.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -17,6 +15,10 @@ public class UserService {
 
     // Import Methods from other Class
     private final UserRepository userRepository; // Class from which methods are being imported
+
+    public UserService(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
 
     // Get all users
     public List<User> getAllUsers() { // Generate function
