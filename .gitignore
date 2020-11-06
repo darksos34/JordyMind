@@ -3,3 +3,5 @@
 .idea/compiler.xml
 .idea/jarRepositories.xml
 *.xml
+client/.idea/client.iml
+*.iml
