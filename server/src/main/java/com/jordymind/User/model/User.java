@@ -7,7 +7,7 @@
  *
  */
 
-package com.FullStackApplication.User.model;
+package com.jordymind.User.model;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -8,10 +8,10 @@
  *
  */
 
-package com.FullStackApplication.User.controller;
+package com.jordymind.User.controller;
 
-import com.FullStackApplication.User.model.User;
-import com.FullStackApplication.User.service.UserService;
+import com.jordymind.User.model.User;
+import com.jordymind.User.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

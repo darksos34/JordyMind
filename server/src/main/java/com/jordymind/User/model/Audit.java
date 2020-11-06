@@ -7,7 +7,7 @@
  *
  */
 
-package com.FullStackApplication.User.model;
+package com.jordymind.User.model;
 
 public class Audit {
 }

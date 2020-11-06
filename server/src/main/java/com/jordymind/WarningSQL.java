@@ -7,7 +7,7 @@
  *
  */
 
-package com.FullStackApplication;
+package com.jordymind;
 
 import javax.swing.*;
 import java.awt.event.MouseAdapter;

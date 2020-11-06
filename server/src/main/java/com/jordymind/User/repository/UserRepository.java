@@ -7,9 +7,9 @@
  *
  */
 
-package com.FullStackApplication.User.repository;
+package com.jordymind.User.repository;
 
-import com.FullStackApplication.User.model.User;
+import com.jordymind.User.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

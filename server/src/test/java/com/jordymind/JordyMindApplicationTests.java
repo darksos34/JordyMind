@@ -1,10 +1,10 @@
-package com.FullStackApplication;
+package com.jordymind;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FullstackapplicationApplicationTests {
+class JordyMindApplicationTests {
 
     @Test
     void contextLoads() {

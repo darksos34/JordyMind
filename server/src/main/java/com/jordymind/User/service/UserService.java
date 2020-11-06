@@ -7,10 +7,10 @@
  *
  */
 
-package com.FullStackApplication.User.service;
+package com.jordymind.User.service;
 
-import com.FullStackApplication.User.model.User;
-import com.FullStackApplication.User.repository.UserRepository;
+import com.jordymind.User.model.User;
+import com.jordymind.User.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
