@@ -10,16 +10,16 @@ const useStyles = makeStyles(() => ({
     },
 }));
 
-const HomePage = () => {
+const Home = () => {
     const classes = useStyles();
 
     return (
         <div className={classes.root}>
-            <Grid container spacing={3}>
-
+            <Grid container spacing={13}>
+             <h1>Home Page</h1>
             </Grid>
         </div>
     );
 }
 
-export default HomePage;
+export default Home;
