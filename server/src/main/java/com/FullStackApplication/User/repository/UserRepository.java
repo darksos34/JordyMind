@@ -1,17 +1,19 @@
-package com.jordymind.server.user;
+/*
+ *
+ *  * Coding for fun created by Darksos34.
+ *  * Copyright (c) 2020.
+ *  * All rights reserved by Jordy Hamwijk
+ *  * Learning Computer Language.
+ *
+ */
 
+package com.FullStackApplication.User.repository;
 
-
+import com.FullStackApplication.User.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Modifying;
-import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import javax.transaction.Transactional;
 import java.util.Optional;
-
-
 
 @Repository // Instruct Spring Boot that this is the Repository
 public interface UserRepository extends JpaRepository<User, Long> {
@@ -29,9 +31,9 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
     // modify this file to your own code
 
-    @Transactional // let's all statements be executed on readonly data
-    @Modifying // lets query  execute INSERT, UPDATE, DELETE and DDL queries
-    @Query("UPDATE User u SET u.password = :password WHERE u.id = :userId") // updates a user's password
-    void updatePassword(@Param("password") String password, @Param("userId") Long userId);
+//    @Transactional // let's all statements be executed on readonly data
+//    @Modifying // lets query  execute INSERT, UPDATE, DELETE and DDL queries
+//    @Query("UPDATE User u SET u.password = :password WHERE u.id = :userId") // updates a user's password
+//    void updatePassword(@Param("password") String password, @Param("userId") Long userId);
 
 }
