@@ -1,7 +1,6 @@
 
-.idea/.name
-.idea/compiler.xml
-.idea/jarRepositories.xml
 *.xml
+server/mvnw.cmd
 client/.idea/client.iml
 *.iml
+.idea/.name
