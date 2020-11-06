@@ -1,5 +1,6 @@
 package com.jordymind.server.user;
 
+import lombok.NoArgsConstructor;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
@@ -9,18 +10,13 @@ import java.util.Optional;
 
 
 
-
 @CrossOrigin(origins="http://localhost:3000", maxAge = 3600) // Cross origin allowed for port 3000
 @RestController // Instruct Spring Boot that this is the REST Controller
 @RequestMapping("/api/users") // Link to access GET/POST/PUT/DELETE requests
 public class UserController {
 
     // Import Methods from other Class
-    private final UserService userService; // Class from which methods are being imported
-
-    public UserController(UserService userService) {
-        this.userService = userService;
-    }
+    private  UserService userService; // Class from which methods are being imported
 
 
     // Get all users
