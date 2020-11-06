@@ -7,3 +7,4 @@ client/.idea/client.iml
 *.lib
 *.jar
 *.meta
+*.xml
