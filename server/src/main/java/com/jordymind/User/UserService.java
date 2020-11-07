@@ -16,15 +16,19 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * @Auther Jordy Hamwijk
+ * @Company ViaConnect
+ * Created on Sunday, 7-11-2020
+ */
+
 @RequiredArgsConstructor // Lombok to create the Required Args Constructor
 @Service // Instruct Spring Boot that this is the Service layer
 public class UserService {
 
     // Import Methods from other Class
-    private final UserRepository userRepository = null; // Class from which methods are being imported
+    private final UserRepository userRepository;// Class from which methods are being imported
 
-    //fix this bug
-    //private final UserRepository userRepository; /
 
     // Get all users
     public List<User> getAllUsers() { // Generate function
@@ -33,14 +37,7 @@ public class UserService {
                 .forEach(users::add);
         return users;  //return list of users
     }
-/*
-* compare these 2 codes to check wich one is working correct
-* */
 
-//    public List<User> getAllUsers() { // Generate function
-//        // Call JPA function via the Repository
-//        return new ArrayList<>(userRepository.findAll());  //return list of users
-//    }
 
     // Get user by ID
     public Optional<User> getUserById(Long id) { // Generate function
