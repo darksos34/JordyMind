@@ -1,0 +1,1 @@
+INSERT INTO users(created_at, updated_at, email, password, username) VALUES ('2020-01-11 01:00:00', '2020-05-11 01:00:20', 'user@jordymind.com', '$2a$10$GckdgpfIJ.NhceNRgh6Aue4AX9fcrmA6mbRRU824UYl8tYAXd3GvG', 'user');
