@@ -8,10 +8,10 @@
         <version>2.3.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.FullStackAppMix</groupId>
-    <artifactId>fullstackapplication</artifactId>
+    <groupId>com.MindAppMix</groupId>
+    <artifactId>Mindapplication</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>FullStackApplication</name>
+    <name>JordyMindApplication</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
