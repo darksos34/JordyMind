@@ -21,7 +21,7 @@ import java.util.Optional;
 public class UserService {
 
     // Import Methods from other Class
-    private final UserRepository userRepository; // Class from which methods are being imported
+    private final UserRepository userRepository = null; // Class from which methods are being imported
 
     // Get all users
 
