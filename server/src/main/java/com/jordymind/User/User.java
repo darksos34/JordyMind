@@ -9,9 +9,8 @@
 
 package com.jordymind.User;
 
-import com.jordymind.User.Audit.Audit;
+import com.jordymind.Audit.Audit;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;

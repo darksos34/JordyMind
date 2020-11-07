@@ -7,7 +7,7 @@
  *
  */
 
-package com.jordymind.User.Audit;
+package com.jordymind.Audit;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
