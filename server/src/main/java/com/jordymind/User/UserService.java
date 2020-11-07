@@ -23,9 +23,10 @@ public class UserService {
     // Import Methods from other Class
     private final UserRepository userRepository = null; // Class from which methods are being imported
 
+    //fix this bug
+    //private final UserRepository userRepository; /
+
     // Get all users
-
-
     public List<User> getAllUsers() { // Generate function
         List<User> users = new ArrayList<>();
         userRepository.findAll() // Call JPA function via the Repository
