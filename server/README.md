@@ -5,7 +5,7 @@
 Jordy Hamwijk (Full Stack Developer @ ViaConnect)<br />
 <br />
 
-*Last updated on: 07-11-2020 by Jordy Hamwijk*
+*Last updated on: 11-11-2020 by Jordy Hamwijk*
 <br />
 
 ## Back-end Setup
