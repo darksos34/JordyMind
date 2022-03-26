@@ -6,6 +6,7 @@ Just building for fun and keep on learning new skills.
 Contributed by Jordy Hamwijk
 - Created on 30-10-20
 
+  - Frontend Updated on 26-03-2022
 
 
 Java LTS 11.0.9
